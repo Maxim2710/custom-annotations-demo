@@ -14,7 +14,7 @@ public class UserService {
     }
 
     public void printName(@UpperCase String name) {
-        System.out.println("Имя: " + name); // Применяем аннотацию UpperCase для параметра
+        System.out.println("Имя и фамилия: " + name); // Применяем аннотацию UpperCase для параметра
     }
 
     public void createUser(@ValidateNotNull String username) {
